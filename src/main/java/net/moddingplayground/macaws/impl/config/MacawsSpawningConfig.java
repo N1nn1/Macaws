@@ -20,6 +20,6 @@ public class MacawsSpawningConfig extends Config {
     }
 
     private <T, O extends Option<T>> O macaw(String id, O option) {
-        return this.add(new Identifier("macaw", id), option);
+        return this.add(new Identifier(Macaws.MOD_ID, id), option);
     }
 }
